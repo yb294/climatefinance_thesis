@@ -1,0 +1,2 @@
+I need to find a way to make the maps + bar charts more cohesive (maybe use the same warm color palette?)
+When I make the combined plots for the paper, I must add panel alphabets i.e. a) b) and such
