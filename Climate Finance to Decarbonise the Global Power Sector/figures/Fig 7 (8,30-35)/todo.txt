@@ -1,3 +1,15 @@
+Completed on 03/19/2025
+------
+- Plant ranking follows year and then a sub sector order of → Coal → Oil → Gas
+    - Each unique asset gets assigned exactly one rank when it first appears
+    - This means the same asset keeps its rank across multiple years for partial phase-outs
+    - As a result, the start_rank for a year might be lower than the end_rank of the previous year if plants with lower ranks continue their phase-out from previous years. 
+Why does this happen? This is because say there is a Coal plant that is partially phased out in the previous year, followed by a Gas plant that is partially phased out as well; for the next year, the phase out starts from the coal plant. Thus the start rank for the next year is lower than the end rank in the previous year.
+
+- End ranks for a country across criteria are not the same. 
+Why? This is because the total number of assets being phased out for the same country in different criteria are different 
+
+
 Completed on 03/06/2025
 ------
 I need to find a way to make the maps + bar charts more cohesive (maybe use the same warm color palette?)
